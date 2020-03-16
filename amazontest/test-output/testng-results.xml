@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="90103" started-at="2020-03-16T06:20:59Z" finished-at="2020-03-16T06:22:29Z">
+    <groups>
+      <group name="MahindraTest">
+        <method signature="ClubMahindraTest.runAmazonTest(java.lang.String, java.lang.String)[pri:0, instance:com.amazon.amazontest.ClubMahindraTest@617c74e5]" name="runAmazonTest" class="com.amazon.amazontest.ClubMahindraTest"/>
+      </group> <!-- MahindraTest -->
+    </groups>
+    <test name="Default test" duration-ms="90103" started-at="2020-03-16T06:20:59Z" finished-at="2020-03-16T06:22:29Z">
+      <class name="com.amazon.amazontest.ClubMahindraTest">
+        <test-method status="PASS" signature="DriverInstantiation()[pri:0, instance:com.amazon.amazontest.ClubMahindraTest@617c74e5]" name="DriverInstantiation" is-config="true" duration-ms="12173" started-at="2020-03-16T11:50:59Z" finished-at="2020-03-16T11:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverInstantiation -->
+        <test-method status="PASS" signature="runAmazonTest(java.lang.String, java.lang.String)[pri:0, instance:com.amazon.amazontest.ClubMahindraTest@617c74e5]" name="runAmazonTest" duration-ms="77913" started-at="2020-03-16T11:51:11Z" data-provider="TestDataMahindra" finished-at="2020-03-16T11:52:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Some Title]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[No Comments because the place is awesome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAmazonTest -->
+      </class> <!-- com.amazon.amazontest.ClubMahindraTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
